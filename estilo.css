@@ -1,0 +1,32 @@
+html, body{
+    min-height: 100vh;
+}
+body{
+    margin: 0;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 20px 2px black;
+}
+
+.image{
+    flex-basis: 210px;
+    flex-grow: 1;
+}
+
+img{
+    width: 100%;
+    display: block; 
+}
